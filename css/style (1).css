@@ -1,0 +1,353 @@
+body{ 
+  font-family: "Roboto"; 
+  line-height: 1;
+  background-color: #ffc88a;
+  background-size:70% ;
+  background-image: url(фон2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.action{
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid rgba(212, 136, 255, 0.979);
+  color: #000000;
+  background-color: white;
+  border-radius: 10px;
+  background-color: white;
+  padding: 9px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.action2{
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid rgba(212, 136, 255, 0.979);
+  color: #000000;
+  background-color: white;
+  border-radius: 10px;
+  background-color: white;
+  padding: 9px;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 120px;
+}
+.action3{
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid rgba(212, 136, 255, 0.979);
+  color: #000000;
+  background-color: white;
+  border-radius: 10px;
+  background-color: white;
+  padding: 9px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.action4{
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid rgba(212, 136, 255, 0.979);
+  color: #000000;
+  background-color: white;
+  border-radius: 10px;
+  background-color: white;
+  padding: 9px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.action5{
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid rgba(212, 136, 255, 0.979);
+  color: #000000;
+  background-color: white;
+  border-radius: 10px;
+  background-color: white;
+  padding: 9px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.action6{
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid rgba(212, 136, 255, 0.979);
+  color: #000000;
+  background-color: white;
+  border-radius: 10px;
+  background-color: white;
+  padding: 9px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.img1{
+  border:3px solid white;
+  border-radius: 50px;
+  margin: auto;
+  height: 350px;
+}
+table{
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+}
+li,
+table, tr, th, td
+ {
+	margin: 0;
+	padding: 30;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.slid{
+  width: 90%;
+  height: 100%;
+  border:3px solid rgb(255, 255, 255);
+  border-radius: 50px;
+}
+.sign {
+  float: right; /* Выравнивание по правому краю */
+  padding: 7px; /* Поля внутри блока */
+  margin: 10px 0 5px 5px; /* Отступы вокруг */
+}
+.sign figcaption {
+  margin: 0 auto 5px; /* Отступы вокруг абзаца */
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  font-size: 22px;
+}
+.registerbtn:hover {
+  opacity:1;
+}
+a {
+  color: rgb(18, 0, 183);
+}
+@import url("animation.css") screen;
+.content h1 {
+	font-size:48px;
+	text-align:center;
+	padding:10px;	
+}
+/* LAYOUT */
+.container {
+	margin:0 auto;
+	overflow:hidden;
+	width:960px;
+}
+/* CONTENT SLIDER */
+#content-slider {
+	width:100%;
+	height:340px;
+}
+/* SLIDER */
+#slider {
+	border:3px solid white;
+	border-radius: 50px;
+	width:680px;
+	margin:0 auto;
+	overflow:visible;
+	position:relative;
+}
+#mask {
+	overflow:hidden;
+	height:320px;
+}
+#slider ul {
+	margin:0;
+	padding:0;
+	position:relative;
+}
+#slider li {
+	width:680px;
+	height:320px;
+	position:absolute;
+	top:-325px;
+	list-style:none;
+}
+#slider li.firstanimation {
+	animation:cycle 15s linear infinite;			
+}
+#slider li.secondanimation {
+	animation:cycletwo 15s linear infinite;		
+}
+#slider li.thirdanimation {
+	animation:cyclethree 15s linear infinite;		
+}
+#slider li.fourthanimation {
+	animation:cyclefour 15s linear infinite;		
+}
+#slider li.fifthanimation {
+	animation:cyclefive 15s linear infinite;		
+}
+#slider li.sixthanimation {
+	animation:cyclesix 15s linear infinite;		
+}
+.container{
+	width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  top:50%;     
+}
+.container.lichkabs{
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  top:50%;       
+}
+.container1{
+	width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header{
+	background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border:3px solid white;
+	border-radius: 50px;
+  width: 100%;
+  position: fixed;
+  display: inline-block;  
+  top:-50%;
+}
+.header, .conteiner{
+  align-items: center;
+  display: flex;
+  padding-bottom: 14px;
+  padding-top: 14px;
+}
+#logo{
+	padding: 0;
+	margin: 0 15px;
+}
+.header {
+	display: inline-block;
+	list-style: none;
+  padding: 0;
+}
+.header li{
+	display: inline-block;
+	padding: 0;
+	margin: 0 15px;
+}
+header .links{
+	display: inline-block;
+	list-style: none;
+  padding: 0;
+}
+header .links li{
+	display: inline-block;
+	padding: 0;
+	margin: 0 15px;
+}
+header .links li a{
+	color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+  width: 100%; 
+  height: 50px; 
+  
+} 
+header .links li a:hover{
+	color: #adadad;
+}
+.footer {
+  left: 0; bottom: 0; /* Левый нижний угол */
+  padding: 1px; /* Поля вокруг текста */
+  background: #ffffff; /* Цвет фона */
+  color: rgb(0, 0, 0);/*вет текста */
+  width: 100%; /* Ширина слоя */
+  display: inline;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: #04080a;
+  font-size: 23px;
+}
+.footer1 {
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid rgba(248, 235, 255, 0.979) ;
+  color: #000000;
+  background-color: white;
+  border-radius: 10px;
+  background-color: rgb(247, 238, 255);
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 180px;
+}
+.food__desc { 
+  font-size: 14px; 
+  padding: 0 50px; 
+  background-position: center; 
+  text-align: center;
+}
+.topNubex {
+	position: fixed;
+	right: 45px;
+	bottom: 45px;
+  color: white;
+}
+button {
+  padding: 10px 40px;
+  text-transform: uppercase;
+  color: #111112;
+  background-color: white;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: .3s;
+  outline: none;
+  border: white;
+}
+
+button:hover {
+  background-color: rgba(213, 159, 245, 0.979);
+}
+
